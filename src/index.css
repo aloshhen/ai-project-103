@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-coffee-background text-coffee-primary;
+}
+
+.gradient-border {
+  @apply border-2 border-transparent bg-gradient-to-r from-coffee-primary to-coffee-accent;
+}
